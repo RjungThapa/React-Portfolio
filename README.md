@@ -1,12 +1,30 @@
-# React + Vite
+# 🚀 React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern **personal portfolio website** built with React + Vite.  
+It showcases my projects, skills, and background with smooth UI, animations, and a custom particle background.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🎨 **Minimalist UI** – clean and distraction-free design  
+- 🌀 **Custom Animated Particle Background** – built with HTML5 Canvas + React hooks  
+- 📂 **Projects & Skills Sections** – highlight work and expertise  
+- 🎵 **Lottie Animations** – smooth JSON-based animations (e.g. arrows, icons)  
+- 📱 **Responsive Design** – optimized for mobile, tablet, and desktop  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Dependencies
+
+This project uses the following libraries:
+
+```json
+"dependencies": {
+  "lottie-react": "^2.4.0",
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1"
+},
+"devDependencies": {
+  "@vitejs/plugin-react": "^4.3.1",
+  "vite": "^5.4.1"
+}
