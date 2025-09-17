@@ -1,0 +1,23 @@
+/* index.css */
+
+/* Make sure the canvas covers the whole screen and stays behind everything */
+.particle-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    pointer-events: none;
+    filter: blur(0.3px);         /* Optional: soft look */
+    mix-blend-mode: lighten;     /* Optional: blend with background nicely */
+}
+
+/* Ensure body/root doesn't clip or scroll */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*overflow: hidden; !* Optional: prevents scrollbars from the canvas *!*/
+}
